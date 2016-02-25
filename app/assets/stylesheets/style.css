@@ -13,7 +13,7 @@
 body{
 	font-family:'Righteous', cursive;
 	color:#fff;
-	background:url('../assets/bg.jpg') top center no-repeat #000;
+	background:url('../assets/NEWbg.jpg') top center no-repeat #000;
 }
 
 .overlay{
@@ -113,8 +113,8 @@ h1 span{
 }
 
 p{
-	font-size:26px;
-	line-height:30px;
+	font-size:22px;
+	line-height:26px;
 	text-align:center;
 	font-weight:100;
 	margin:35px 0px;

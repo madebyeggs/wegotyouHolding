@@ -11,7 +11,7 @@
 /*------------------------------------------------*/
 
 body{
-	font-family:'Oswald', Arial;
+	font-family:'Righteous', cursive;
 	color:#fff;
 	background:url('../assets/bg.jpg') top center no-repeat #000;
 }
@@ -95,7 +95,7 @@ body{
 	margin:0 auto;
 	text-align:center;
 	display:block;
-	margin-top: -10px;
+	margin-top: 160px;
 }
 
 h1{

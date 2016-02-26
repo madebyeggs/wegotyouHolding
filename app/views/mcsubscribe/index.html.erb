@@ -10,13 +10,13 @@
 	<div class="col-md-3">&nbsp;</div>	
 </div>
 <div class="col-md-12 submain">
-	<p>Send us your latest mix and subscribe to find out more...</p>
+	<p>Submit your details and share your best mix with us and we'll get back to you...</p>
 	<div id="response"></div>
 	<div class="form">
 	<%= form_tag('/mcsubscribe/subscribe', method: "post", id: "mcsubscribe", remote: "true") do -%>
 		<%= email_field(:email, :address, {id: "email", placeholder: "email address"}) %><br/>
 		<%= url_field(:soundcloud, :homepage, {id: "soundcloud", placeholder: "link to your mix"}) %><br/>
-		<%= text_field(:fname, :name, {id: "fname", placeholder: "name"}) %><br/>
+		<%= url_field(:fname, :home, {id: "soundcloud", placeholder: "link to your mix"}) %><br/>
 	   	<%= submit_tag("Subscribe") %>
 	<% end %>
 	</div>

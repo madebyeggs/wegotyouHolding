@@ -16,7 +16,7 @@
 	<%= form_tag('/mcsubscribe/subscribe', method: "post", id: "mcsubscribe", remote: "true") do -%>
 		<%= email_field(:email, :address, {id: "email", placeholder: "email address"}) %><br/>
 		<%= url_field(:soundcloud, :homepage, {id: "soundcloud", placeholder: "link to your mix"}) %><br/>
-		<%= text_field(:fname, :fname, {id: "fname", placeholder: "name"}) %><br/>
+		<%= text_field(:fname, :name, {id: "fname", placeholder: "name"}) %><br/>
 	   	<%= submit_tag("Subscribe") %>
 	<% end %>
 	</div>

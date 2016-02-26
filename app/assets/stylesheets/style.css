@@ -49,9 +49,9 @@ p{
 	font-weight:100;
 	margin:-6px 0px 0px;
 }
-#response {color:#001d56;margin:18px 0px -32px 0px;}
+#response {color:#001d56;margin:18px 0px -52px 0px;}
 
-.form {margin-top:-15px;}
+.form {margin-top:72px;}
 
 @media (min-width: 1200px){
 	.container {
@@ -177,7 +177,7 @@ input[type="submit"]{
 	position: relative;
 	top: 3px;
 	left: 0px;
-	margin:39px 0px 12px 0px;
+	margin:24px 0px 36px 0px;
 	-webkit-transition: all .3s ease;
 	-moz-transition: 	all .3s ease;
 	-ms-transition: 	all .3s ease;

@@ -5,8 +5,8 @@ class McsubscribeController < ApplicationController
  
   def subscribe
     email = params[:email][:address]
-    soundcloud = params[:soundcloud]
-    fname = params[:fname]
+    soundcloud = params[:soundcloud][:homepage]
+    fname = params[:fname][:name]
     if !email.blank?
       begin
         @mc.lists.subscribe(@list_id, 

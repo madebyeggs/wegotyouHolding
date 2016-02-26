@@ -1,9 +1,66 @@
 .countdownHolder{
-	width:60%;
+	width:80%;
 	margin:0 auto;
-	font: 40px/1.5 'Open Sans Condensed',sans-serif;
+	font: 46px/1.5 'Open Sans Condensed',sans-serif;
 	text-align:center;
 	letter-spacing:-3px;
+}
+#note {font-size:40px;}
+
+@media (max-width: 1475px){
+	.countdownHolder {
+		font: 40px/1.5 'Open Sans Condensed',sans-serif;
+	}
+	#note {font-size:40px;}
+}
+
+@media (max-width: 1310px){
+	.countdownHolder {
+		font: 35px/1.5 'Open Sans Condensed',sans-serif;
+	}
+	#note {font-size:35px;}
+}
+
+@media (max-width: 1200px){
+	.countdownHolder {
+		font: 30px/1.5 'Open Sans Condensed',sans-serif;
+	}
+	#note {font-size:30px;}
+}
+
+@media (max-width: 1065px){
+	.countdownHolder {
+		font: 25px/1.5 'Open Sans Condensed',sans-serif;
+	}
+	#note {font-size:25px;}
+}
+
+@media (max-width: 992px){
+	.countdownHolder {
+		font: 40px/1.5 'Open Sans Condensed',sans-serif;
+	}
+	#note {font-size:40px;}
+}
+
+@media (max-width: 665px){
+	.countdownHolder {
+		font: 35px/1.5 'Open Sans Condensed',sans-serif;
+	}
+	#note {font-size:35px;}
+}
+
+@media (max-width: 540px){
+	.countdownHolder {
+		font: 30px/1.5 'Open Sans Condensed',sans-serif;
+	}
+	#note {font-size:30px;}
+}
+
+@media (max-width: 410px){
+	.countdownHolder {
+		font: 25px/1.5 'Open Sans Condensed',sans-serif;
+	}
+	#note {font-size:25px;}
 }
 
 .position{
@@ -17,7 +74,7 @@
 .digit{
 	position:absolute;
 	display:block;
-	width:1em;
+	width:100%;
 	background-color:#444;
 	border-radius:0.2em;
 	text-align:center;
@@ -81,3 +138,4 @@
 .countDiv:after{
 	top:0.9em;
 }
+

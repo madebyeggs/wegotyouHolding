@@ -340,6 +340,9 @@ box-sizing: border-box;
   }
   .col-md-12 {
     width: 100%;
+	z-index:1000;
+	margin:0;
+	padding:0;
   }
   .col-md-11 {
     width: 91.66666667%;

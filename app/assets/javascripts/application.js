@@ -15,6 +15,7 @@
 //= require turbolinks
 //= require jquery.countdown
 //= require script
+//= require mailchimp
 
 $(document).ready(function(){
 });

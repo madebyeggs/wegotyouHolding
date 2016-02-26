@@ -1,0 +1,23 @@
+<div class="col-md-12 main">
+	<div class="col-md-3">&nbsp;</div>
+	<div class="col-md-6">
+		<%= image_tag("Logo.png", class: "image-align2") %>
+		<div class="countdowner">
+			<div id="countdown"></div>
+			<div id="note"></div>
+		</div>
+	</div>
+	<div class="col-md-3">&nbsp;</div>	
+</div>
+<div class="col-md-12 submain">
+	<p>Send us your latest mix and subscribe to find out more...</p>
+	<div id="response"></div>
+	<div class="form">
+	<%= form_tag('/mcsubscribe/subscribe', method: "post", id: "mcsubscribe", remote: "true") do -%>
+		<%= email_field(:email, :address, {id: "email", placeholder: "email address"}) %><br/>
+		<%= url_field(:soundcloud, :homepage, {id: "soundcloud", placeholder: "link to your mix"}) %><br/>
+		<%= text_field(:fname, :fname, {id: "fname", placeholder: "name"}) %><br/>
+	   	<%= submit_tag("Subscribe") %>
+	<% end %>
+	</div>
+</div>
